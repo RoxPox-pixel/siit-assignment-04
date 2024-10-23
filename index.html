@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tema DOM 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h2>Click counter</h2>
+    <div class="container">
+      <h2>Clicks:</h2>
+      <div>
+        <span>0</span>
+      </div>
+      <br />
+      <div class="buttons">
+        <button onclick="minusFive()">- 5</button>
+        <button onclick="minusOne()">- 1</button>
+        <button onclick="reset()">reset</button>
+        <button onclick="plusOne()">+ 1</button>
+        <button onclick="plusFive()">+ 5</button>
+      </div>
+      <br />
+      <p class="last-action">Last action: </p>
+    </div>
+  </body>
+</html>
